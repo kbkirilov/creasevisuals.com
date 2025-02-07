@@ -1,0 +1,7 @@
+<FilesMatch "file.php">
+ 	AuthName "Members Only"
+ 	AuthType Basic
+ 	#файлът, в който се намират данните за потребителя и паролата
+	 AuthUserFile /home/cpaneluser/.htpasswds/.htpasswd
+ 	require valid-user
+</FilesMatch>
